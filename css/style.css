@@ -85,9 +85,8 @@ body{
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 970px;
+ 
     height: 70px;
-    margin: 0 auto;
 }
 
 .top-navigation .links{
@@ -104,11 +103,6 @@ body{
 	font-weight: 500;
 }
 
-.content{
-	margin:0 auto;
-	min-width: 37.5rem;
-	padding: 0px 15px
-}
 
 
 .top-navigation .links li{
@@ -122,13 +116,71 @@ body{
 	margin-left: 0.8rem;
 }
 
-.main-image{
-	background-image: url('../images/first-background.jpg');
-	background-repeat: no-repeat;
-    background-size: cover;
-	
-	text-align: center;
-  	max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
+.introduction{
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+  overflow: auto;
 }
+
+.content{
+	margin: 0 auto;
+  	width: 970px;
+	min-width: 37.5rem;
+	padding: 0 0.938rem;
+}
+
+.introduction h1{
+	margin-top: 12.5rem;
+	font-size:3.125rem;
+}
+
+.introduction h3{	line-height: 3rem;
+	font-size:1.7rem;
+
+}
+
+.introduction h1, .introduction h3{
+	color:white;
+	text-align: center;
+	font-weight: 300;
+}
+
+/**
+The buttons
+*/
+
+.intorduction .buttons{
+	color:white;
+	text-align: center;
+}
+
+button{
+	width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow:none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    display: block;
+}
+
+button:hover{
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+    cursor: pointer;
+}
+
+.big-button{
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.5rem;
+    margin: 2rem auto;
+ }
