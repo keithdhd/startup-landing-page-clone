@@ -61,15 +61,13 @@ table {
  * Start of Custom Styles
  */
 
-
-
 /*So we can see what's goin' on Marvin*/
 body{
 	background-color: LightGray;
 }
 
 div{
-	border: 1px solid Chocolate;
+	//border: 1px solid Chocolate;
 }
 
 /***************************************/
@@ -122,4 +120,15 @@ body{
 .logo {
 	margin-top: 0.8rem;
 	margin-left: 0.8rem;
+}
+
+.main-image{
+	background-image: url('../images/first-background.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+	text-align: center;
+  	max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
 }
