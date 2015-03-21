@@ -236,7 +236,8 @@ button:hover{
 }
 
 .social .icons > li {
-    border-radius: 1.25rem;
+    border-radius: 50px;
+    box-shadow: 0 0 0 10px red;
     width: 2.5rem;
     height: 2.5rem;
     display: inline-block;
@@ -247,7 +248,9 @@ button:hover{
     cursor: pointer;
 }
 
-
+.social .icons > li:hover{
+	  box-shadow: 0 0 0 10px black;
+}
 
 .copy{
 	padding: 15px;
